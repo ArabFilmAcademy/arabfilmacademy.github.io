@@ -4,6 +4,6 @@
 @oalamoudi
  لصناعة معايير وأدوات مفتوحة المصدر لتسهيل عمل صناعة الأفلام بالعربي.
 للمساهمة التواصل على 
-(contribute@arabfilmacademy.com)[mailto://contribute@arabfilmacademy.com]
+[contribute@arabfilmacademy.com](mailto://contribute@arabfilmacademy.com)
 
 
