@@ -26,7 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d5cb07-42ac-4a54-be0d-8a69e3b2967f" name="Default Changelist" comment="docs(Readme): fix rtl Support" />
+    <list default="true" id="d0d5cb07-42ac-4a54-be0d-8a69e3b2967f" name="Default Changelist" comment="docs(Readme): fix Headlines" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609667943455</updated>
       <workItem from="1609667944547" duration="567000" />
-      <workItem from="1609668553945" duration="4514000" />
+      <workItem from="1609668553945" duration="5085000" />
     </task>
     <task id="LOCAL-00001" summary="docs(Readme): Update a full readme that reflects the Twitter description">
       <created>1609671125556</created>
@@ -134,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609673105003</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="docs(Readme): fix rtl Support">
+      <created>1609673129475</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609673129475</updated>
+    </task>
+    <task id="LOCAL-00011" summary="docs(Readme): fix Headlines">
+      <created>1609673680245</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609673680245</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,8 +186,8 @@
     <MESSAGE value="docs(Readme): Update a full readme that reflects the Twitter description" />
     <MESSAGE value="docs(.idea): remove .idea" />
     <MESSAGE value="docs(Readme): Update email to include subject and body" />
-    <MESSAGE value="docs(Readme): fix Headlines" />
     <MESSAGE value="docs(Readme): fix rtl Support" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(Readme): fix rtl Support" />
+    <MESSAGE value="docs(Readme): fix Headlines" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs(Readme): fix Headlines" />
   </component>
 </project>
