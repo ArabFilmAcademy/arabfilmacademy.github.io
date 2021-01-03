@@ -21,6 +21,6 @@ import { InitiativeDetailsComponent } from './initiative-details/initiative-deta
     Angulartics2Module,
     InitiativeRoutingModule,
   ],
-  declarations: [InitiativeCardComponent, InitiativeListComponent, InitiativeDetailsComponent],
+  declarations: [InitiativeComponent, InitiativeCardComponent, InitiativeListComponent, InitiativeDetailsComponent],
 })
 export class InitiativeModule {}

@@ -137,5 +137,8 @@
       }
     }
   },
-  "defaultProject": "arabfilmacademy"
+  "defaultProject": "arabfilmacademy",
+  "cli": {
+    "analytics": "16dcdb88-fce6-4584-8dcd-366a3da4d915"
+  }
 }
