@@ -3,8 +3,8 @@
 مشروع غير ربحي بقيادة 
 [okamoudi](https://twitter.com/okamoudi)
  لصناعة معايير وأدوات مفتوحة المصدر لتسهيل عمل صناعة الأفلام بالعربي.
-للمساهمة التواصل على 
-[contribute@arabfilmacademy.com](mailto://contribute@arabfilmacademy.com)
+للمساهمة التواصل على
+[contribute@arabfilmacademy.com](mailto://contribute@arabfilmacademy.com?subject=%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9%20%D9%81%D9%8A%20%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A9&body=%D8%A7%D9%84%D8%A7%D8%B3%D9%85%3A%0D%0A%D9%85%D8%AC%D8%A7%D9%84%D9%83%3A%20%0D%0A%D8%B3%D9%86%D9%8A%D9%86%20%D8%A7%D9%84%D8%AE%D8%A8%D8%B1%D8%A9%3A%20%0D%0A%D9%85%D8%B9%D8%B1%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%3A%0D%0A%D8%B1%D9%82%D9%85%20%D8%A7%D9%84%D8%AC%D9%88%D8%A7%D9%84%3A%20%0D%0A)
 
 
 ## عن اﻷكاديمية
@@ -67,7 +67,7 @@
 ##المشاركة
 تستطيع المشاركة عبر البريد الإلكتروني التالي
 
-```contribute@arabfilmacademy.com```
+[contribute@arabfilmacademy.com](mailto://contribute@arabfilmacademy.com?subject=%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9%20%D9%81%D9%8A%20%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A9&body=%D8%A7%D9%84%D8%A7%D8%B3%D9%85%3A%0D%0A%D9%85%D8%AC%D8%A7%D9%84%D9%83%3A%20%0D%0A%D8%B3%D9%86%D9%8A%D9%86%20%D8%A7%D9%84%D8%AE%D8%A8%D8%B1%D8%A9%3A%20%0D%0A%D9%85%D8%B9%D8%B1%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%3A%0D%0A%D8%B1%D9%82%D9%85%20%D8%A7%D9%84%D8%AC%D9%88%D8%A7%D9%84%3A%20%0D%0A)
 
 #### العنوان:
 
