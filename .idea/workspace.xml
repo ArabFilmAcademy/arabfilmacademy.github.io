@@ -26,7 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d5cb07-42ac-4a54-be0d-8a69e3b2967f" name="Default Changelist" comment="">
+    <list default="true" id="d0d5cb07-42ac-4a54-be0d-8a69e3b2967f" name="Default Changelist" comment="docs(Readme): Update a full readme that reflects the Twitter description">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +71,16 @@
       <option name="presentableId" value="Default" />
       <updated>1609667943455</updated>
       <workItem from="1609667944547" duration="567000" />
-      <workItem from="1609668553945" duration="2363000" />
+      <workItem from="1609668553945" duration="2746000" />
     </task>
+    <task id="LOCAL-00001" summary="docs(Readme): Update a full readme that reflects the Twitter description">
+      <created>1609671125556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609671125556</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +114,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/arabfilmacademy.github.io" />
     </ignored-roots>
+    <MESSAGE value="docs(Readme): Update a full readme that reflects the Twitter description" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs(Readme): Update a full readme that reflects the Twitter description" />
   </component>
 </project>
