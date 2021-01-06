@@ -1,0 +1,171 @@
+[
+  {
+    "id": 1,
+    "title": "كتابة النصوص المرئية",
+    "description": "مجموعة من المبادرات تهتم بصياغة قوالب عربية موحدة للمشاريع الفنية العربية.",
+    "goals": [
+      {
+        "id": 1,
+        "name": "توحيد قياسات النص المرئي المكتوب",
+        "description": "الهدف من التوحيد هو الحصول على قالب تستطيع تحديد طول النص ب دقيقة لكل ورقة",
+        "created": ""
+      },
+      {
+        "id": 2,
+        "name": "توحيد الخط المستخدم",
+        "description": "توحيد الخط للتعرف على هيئة النص المرئي بمجرد النظر للورق",
+        "created": ""
+      },
+      {
+        "id": 3,
+        "name": "توحيد تنسيق العناصر المهمة",
+        "description": "بعض العناصر كاسم الشخصيات المكان يجب أن يحصل على تنسيق موحد متخصص حتى يسهل التعرف عليها بسهولة",
+        "created": ""
+      },
+      {
+        "id": 4,
+        "name": "توحيد قالب الصفحة الأولى",
+        "description": "لسهولة الحصول على المعلومة",
+        "created": ""
+      }
+    ],
+    "initiatives": [
+      {
+        "id": 1,
+        "title": "كتابة النص السينمائي الطريقة السردية",
+        "description": "كتابة النص السينمائية بالطريقة السردية المستخدمة في الولايات المتحدة الأمريكية. وتعمد على الهوامش",
+        "created": "",
+        "goals": [
+          {
+            "id": 5,
+            "name": "توحيد تنسيق العناصر المهمة",
+            "description": "بعض العناصر كاسم الشخصيات المكان يجب أن يحصل على تنسيق موحد متخصص حتى يسهل التعرف عليها بسهولة",
+            "created": ""
+          },
+          {
+            "id": 6,
+            "name": "توحيد قالب الصفحة الأولى",
+            "description": "لسهولة الحصول على المعلومة",
+            "created": ""
+          }
+        ],
+        "tasks": [{}]
+      },
+      {
+        "id": 2,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": []
+      },
+      {
+        "id": 3,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": []
+      },
+      {
+        "id": 4,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": []
+      },
+      {
+        "id": 5,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": []
+      }
+    ],
+    "created": ""
+  },
+  {
+    "id": 2,
+    "title": "",
+    "description": "",
+    "initiatives": [
+      {
+        "id": 1,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": [{}]
+      },
+      {
+        "id": 2,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": []
+      },
+      {
+        "id": 3,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": []
+      },
+      {
+        "id": 4,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": []
+      },
+      {
+        "id": 5,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": []
+      }
+    ],
+    "created": ""
+  },
+  {
+    "id": 1,
+    "title": "",
+    "description": "",
+    "initiatives": [
+      {
+        "id": 1,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": [{}]
+      },
+      {
+        "id": 2,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": []
+      },
+      {
+        "id": 3,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": []
+      },
+      {
+        "id": 4,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": []
+      },
+      {
+        "id": 5,
+        "title": "",
+        "description": "",
+        "created": "",
+        "tasks": []
+      }
+    ],
+    "created": ""
+  }
+]
