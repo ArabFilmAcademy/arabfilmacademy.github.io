@@ -1,17 +1,52 @@
 <div class="container">
-  <mat-card>
-    <p></p>
-    <mat-card-content>
-      <mat-card-title translate>Hello world !</mat-card-title>
-      <mat-card-subtitle>
-        <!--        <app-loader [isLoading]="isLoading" size="1.5"></app-loader>-->
-        <!--        <q [hidden]="isLoading">{{ quote }}</q>-->
-      </mat-card-subtitle>
-      <mat-card-actions>
-        <button mat-raised-button angulartics2On="click" angularticsAction="Click button below quote">
-          Participate
-        </button>
-      </mat-card-actions>
-    </mat-card-content>
-  </mat-card>
+  <h1 translate>Initiatives</h1>
+  <div fxLayout="row wrap" fxLayout.lt-md="column" fxLayoutAlign="space-between stretch" fxLayoutGap="10px grid">
+    <div fxFlex="50" fxFlex.lt-md="100" *ngFor="let category of initiativeCategories">
+      <mat-card class="initiative-cat-card">
+        <mat-card-title>{{ category.title }}</mat-card-title>
+        <mat-card-content>
+          <p>{{ category.description }}</p>
+          <div fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="space-between stretch">
+            <div fxFlex="33" fxLayout="column" fxLayoutAlign="center center">
+              <span class="initiative-cat-stat">{{ category?.initiatives?.length }}</span>
+              <p translate>Initiatives</p>
+            </div>
+            <div fxFlex="33" fxLayout="column" fxLayoutAlign="center center">
+              <span class="initiative-cat-stat">0</span>
+              <p translate>Leaders</p>
+            </div>
+            <div fxFlex="33" fxLayout="column" fxLayoutAlign="center center">
+              <span class="initiative-cat-stat">0</span>
+              <p translate>Participants</p>
+            </div>
+          </div>
+        </mat-card-content>
+        <mat-card-actions>
+          <button
+            mat-raised-button
+            angulartics2On="click"
+            angularticsAction="{{ 'Participate in' | translate }} {{ category.title }} {{ 'initiative' | translate }}"
+          >
+            {{ 'Participate' | translate }}
+          </button>
+          <button
+            mat-raised-button
+            angulartics2On="click"
+            angularticsAction="{{ 'Lead' | translate }} {{ category.title }} {{ 'initiative' | translate }}"
+          >
+            {{ 'Lead' | translate }}
+          </button>
+          <button
+            routerLink="/initiatives/cat/{{ category.id }}"
+            mat-raised-button
+            color="primary"
+            angulartics2On="click"
+            angularticsAction="{{ 'See' | translate }} {{ category.title }} {{ 'initiative details' | translate }}"
+          >
+            {{ 'Details' | translate }}
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
 </div>

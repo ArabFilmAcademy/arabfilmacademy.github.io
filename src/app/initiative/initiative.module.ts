@@ -10,6 +10,7 @@ import { InitiativeRoutingModule } from '@app/initiative/initiative-routing.modu
 import { InitiativeCardComponent } from './initiative-card/initiative-card.component';
 import { InitiativeListComponent } from './initiative-list/initiative-list.component';
 import { InitiativeDetailsComponent } from './initiative-details/initiative-details.component';
+import { InitiativeCategoryComponent } from './initiative-category/initiative-category.component';
 
 @NgModule({
   imports: [
@@ -21,6 +22,12 @@ import { InitiativeDetailsComponent } from './initiative-details/initiative-deta
     Angulartics2Module,
     InitiativeRoutingModule,
   ],
-  declarations: [InitiativeComponent, InitiativeCardComponent, InitiativeListComponent, InitiativeDetailsComponent],
+  declarations: [
+    InitiativeComponent,
+    InitiativeCardComponent,
+    InitiativeListComponent,
+    InitiativeDetailsComponent,
+    InitiativeCategoryComponent,
+  ],
 })
 export class InitiativeModule {}

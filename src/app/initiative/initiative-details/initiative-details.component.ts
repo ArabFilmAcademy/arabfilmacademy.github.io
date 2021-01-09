@@ -10,8 +10,8 @@ export class InitiativeDetailsComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    this.route.params.subscribe((params) => {
-      console.log(params.id);
+    this.route.paramMap.subscribe((params) => {
+      console.log(params.get('id'), params.get('cat_id'));
     });
   }
 }
