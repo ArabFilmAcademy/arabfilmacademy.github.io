@@ -1,1 +1,30 @@
-<p>initiative-details works!</p>
+<div class="container">
+  <h1>{{ initiative.title }}</h1>
+  <div fxLayout="row wrap" fxLayout.lt-md="column" fxLayoutAlign="space-between stretch" fxLayoutGap="10px grid">
+    <div fxFlex="50">
+      <mat-card>
+        <mat-card-title translate>Goals</mat-card-title>
+        <mat-card-content>
+          <mat-list role="list">
+            <mat-list-item role="listitem" *ngFor="let goal of initiative.goals">
+              <mat-icon color="primary">menu_book</mat-icon> &nbsp;
+              {{ goal.name }}
+            </mat-list-item>
+          </mat-list>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <div fxFlex="50">
+      <mat-card>
+        <mat-card-title translate>Tasks</mat-card-title>
+        <mat-card-content>
+          <mat-list role="list">
+            <mat-list-item role="listitem" *ngFor="let task of initiative.tasks">
+              {{ task.name }}
+            </mat-list-item>
+          </mat-list>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

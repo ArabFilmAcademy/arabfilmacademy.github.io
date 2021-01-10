@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { InitiativeService } from '@app/initiative/initiative.service';
+import { Initiative } from '@app/initiative/initiative';
 
 @Component({
   selector: 'app-initiative-details',
@@ -7,11 +9,14 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./initiative-details.component.scss'],
 })
 export class InitiativeDetailsComponent implements OnInit {
-  constructor(private route: ActivatedRoute) {}
+  initiative: Initiative;
+  constructor(private initiativeService: InitiativeService, private route: ActivatedRoute) {}
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((params) => {
-      console.log(params.get('id'), params.get('cat_id'));
+      this.initiativeService.getInitiative(+params.get('cat_id'), +params.get('id')).subscribe((data) => {
+        this.initiative = data;
+      });
     });
   }
 }

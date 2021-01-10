@@ -13,7 +13,7 @@ const routes: Routes = [
     { path: 'initiatives', component: InitiativeComponent, data: { title: marker('Initiatives') } },
     { path: 'initiatives/cat/:id', component: InitiativeCategoryComponent, data: { title: marker('Initiative') } },
     {
-      path: 'initiatives/cat/:cat_id/initiative/:initiative_id',
+      path: 'initiatives/cat/:cat_id/initiative/:id',
       component: InitiativeDetailsComponent,
       data: { title: marker('Initiative') },
     },
