@@ -2,13 +2,17 @@
   text-align: center;
   padding: 1em;
 }
-
 .logo {
   width: 150px;
   margin: 0 auto;
 }
-
 q {
   font-style: italic;
   quotes: "« " " »";
+}
+.hero {
+  height: 80vh;
+}
+.hero-subtitle {
+  padding-bottom: 5em;
 }

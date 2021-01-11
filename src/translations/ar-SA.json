@@ -1,10 +1,11 @@
 {
   "About The Academy": "عن اﻷكاديمية",
-  "FAQ": "اﻷسئلة الشائعة",
   "Q": "س",
   "A": "ج",
+  "FAQ": "اﻷسئلة الشائعة",
   "Related links": "روابط ذات صلة",
-  "Hello world !": "أهلا بالعالم !",
+  "Arab Film Academy": "أكاديمية اﻷفلام العربية",
+  "Support Arabic language in Media Industry": "دعم اللغة العربية في صناعة اﻹعلام",
   "Goals": "اﻷهداف",
   "Tasks": "المهام",
   "Participate": "شارك",
@@ -20,10 +21,8 @@
   "APP_NAME": "أكاديمية اﻷفلام العربية",
   "Home": "الرئيسة",
   "About": "عنا",
-  "Arab Film Academy": "أكاديمية اﻷفلام العربية",
-  "This page requires JavaScript to work properly. Please enable JavaScript in your browser.": "",
+  "This page requires JavaScript to work properly. Please enable JavaScript in your browser.": "هذه الصفحة تتطلب جافاسكريبت حتى تعمل بشكل صحيح. رجاء فعل جافاسكريبت في متصفحك.",
   "Initiative": "مبادرة",
-  "Version": "النسخة",
   "Participate in ": "شارك في ",
   "Lead ": "قُد"
 }
