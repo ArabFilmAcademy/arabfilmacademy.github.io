@@ -16,11 +16,11 @@
           <mat-list fxLayout="row wrap" fxLayoutGap="1em grid" *ngIf="faq?.links">
             <mat-list-item fxFlex="" *ngFor="let link of faq?.links">
               <a mat-button [href]="link.link" *ngIf="link?.link">
-                <mat-icon color="primary">link</mat-icon>&nbsp;{{ link.title }}</a
-              >
+                <mat-icon color="primary">link</mat-icon>&nbsp;{{ link.title }}
+              </a>
               <a mat-button [routerLink]="link.routerLink" *ngIf="link?.routerLink">
-                <mat-icon color="primary">link</mat-icon>&nbsp;{{ link.title }}</a
-              >
+                <mat-icon color="primary">link</mat-icon>&nbsp;{{ link.title }}
+              </a>
             </mat-list-item>
           </mat-list>
         </mat-expansion-panel>
