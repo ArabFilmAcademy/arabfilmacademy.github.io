@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import * as initiatives from '../../assets/data/initiatives.json';
+import * as initiatives from '@assets/data/initiatives.json';
 import { Initiative, InitiativeCategory } from '@app/initiative/initiative';
 import { Observable, of } from 'rxjs';
 

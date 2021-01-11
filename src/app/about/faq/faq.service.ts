@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Faq } from '@app/about/faq/faq';
-import * as faqsData from '../../../assets/data/faq.json';
+import * as faqsData from '@assets/data/faq.json';
 import { Observable, of } from 'rxjs';
 
 @Injectable({

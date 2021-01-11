@@ -18,6 +18,8 @@
     "baseUrl": "./",
     "paths": {
       "@app/*": ["src/app/*"],
+      "@theme/*": ["src/theme/*"],
+      "@assets/*": ["src/assets/*"],
       "@core": ["src/app/@core"],
       "@core/*": ["src/app/@core/*"],
       "@shared": ["src/app/@shared"],
