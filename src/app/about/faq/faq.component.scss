@@ -14,7 +14,10 @@ h1,
 .mat-expansion-panel-header-title {
   color: mat-color($app-primary);
 }
+.related_links,
+strong.answer {
+  color: mat-color($app-accent);
+}
 .related_links {
   padding-top: 2em;
-  color: mat-color($app-accent);
 }

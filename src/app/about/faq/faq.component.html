@@ -5,16 +5,20 @@
       <div *ngFor="let faq of faqs">
         <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
           <mat-expansion-panel-header>
-            <mat-panel-title><strong translate>Q</strong>: {{ faq.question }}</mat-panel-title>
+            <mat-panel-title
+              ><strong>{{ 'Q' | translate }}:</strong> {{ faq.question }}</mat-panel-title
+            >
           </mat-expansion-panel-header>
-          <p><strong translate>A</strong>: {{ faq.answer }}</p>
+          <p>
+            <strong class="answer">{{ 'A' | translate }}:</strong> {{ faq.answer }}
+          </p>
           <span class="related_links" *ngIf="faq?.links" translate>Related links</span>
           <mat-list fxLayout="row wrap" fxLayoutGap="1em grid" *ngIf="faq?.links">
             <mat-list-item fxFlex="" *ngFor="let link of faq?.links">
-              <a [href]="link.link" *ngIf="link?.link">
+              <a mat-button [href]="link.link" *ngIf="link?.link">
                 <mat-icon color="primary">link</mat-icon>&nbsp;{{ link.title }}</a
               >
-              <a [routerLink]="link.routerLink" *ngIf="link?.routerLink">
+              <a mat-button [routerLink]="link.routerLink" *ngIf="link?.routerLink">
                 <mat-icon color="primary">link</mat-icon>&nbsp;{{ link.title }}</a
               >
             </mat-list-item>
