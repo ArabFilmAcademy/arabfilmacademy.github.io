@@ -4,13 +4,14 @@ import { marker } from '@biesbjerg/ngx-translate-extract-marker';
 
 import { AboutComponent } from './about.component';
 import { Shell } from '../shell/shell.service';
+import { FaqComponent } from '@app/about/faq/faq.component';
 
 const routes: Routes = [
   Shell.childRoutes([
     { path: '', redirectTo: '/about', pathMatch: 'full' },
     { path: 'about', component: AboutComponent, data: { title: marker('About') } },
     { path: '', redirectTo: '/faq', pathMatch: 'full' },
-    { path: 'faq', component: AboutComponent, data: { title: marker('About') } },
+    { path: 'faq', component: FaqComponent, data: { title: marker('About') } },
   ]),
 ];
 
