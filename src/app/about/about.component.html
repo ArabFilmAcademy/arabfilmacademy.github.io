@@ -1,11 +1,21 @@
 <div class="container">
-  <mat-card>
-    <h1>
-      <mat-card-title translate>APP_NAME</mat-card-title>
-    </h1>
-    <mat-card-content>
-      <mat-icon>code</mat-icon>
-      <span translate>Version</span> {{ version }}
-    </mat-card-content>
-  </mat-card>
+  <h1 translate>About The Academy</h1>
+  <div fxLayout="column" fxLayoutGap="1em grid">
+    <div *ngFor="let section of aboutSections">
+      <mat-card>
+        <h2>
+          <mat-card-title>{{ section.title }}</mat-card-title>
+        </h2>
+        <mat-card-content>
+          <p>{{ section.content }}</p>
+          <mat-list fxLayout="row wrap" fxLayoutGap="1em grid" *ngIf="section?.content_list">
+            <mat-list-item fxFlex="" *ngFor="let item of section?.content_list">
+              <mat-icon color="primary">{{ section.content_list_icon }}</mat-icon
+              >&nbsp;{{ item }}
+            </mat-list-item>
+          </mat-list>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
 </div>

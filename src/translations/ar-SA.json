@@ -1,6 +1,5 @@
 {
-  "APP_NAME": "أكاديمية اﻷفلام العربية",
-  "Version": "النسخة",
+  "About The Academy": "عن اﻷكاديمية",
   "Hello world !": "أهلا بالعالم !",
   "Goals": "اﻷهداف",
   "Tasks": "المهام",
@@ -14,11 +13,13 @@
   "Initiatives": "مبادرات",
   "Leaders": "القادة",
   "Participants": "المشاركين",
+  "APP_NAME": "أكاديمية اﻷفلام العربية",
   "Home": "الرئيسة",
   "About": "عنا",
   "Arab Film Academy": "أكاديمية اﻷفلام العربية",
   "This page requires JavaScript to work properly. Please enable JavaScript in your browser.": "",
   "Initiative": "مبادرة",
+  "Version": "النسخة",
   "Participate in ": "شارك في ",
   "Lead ": "قُد"
 }

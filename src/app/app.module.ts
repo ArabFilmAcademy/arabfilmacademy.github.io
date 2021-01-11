@@ -16,6 +16,7 @@ import { ShellModule } from './shell/shell.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { InitiativeModule } from '@app/initiative/initiative.module';
+import { AboutModule } from '@app/about/about.module';
 
 @NgModule({
   imports: [
@@ -30,6 +31,7 @@ import { InitiativeModule } from '@app/initiative/initiative.module';
     SharedModule,
     ShellModule,
     HomeModule,
+    AboutModule,
     Angulartics2Module.forRoot(),
     InitiativeModule,
     AppRoutingModule, // must be imported as the last module as it contains the fallback route

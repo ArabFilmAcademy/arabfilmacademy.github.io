@@ -1,8 +1,33 @@
+@import "~@angular/material/theming";
+@import "../../theme/theme-variables";
 .container {
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   padding: 1rem;
+  width: 80%;
 }
 
 .mat-icon {
   vertical-align: middle;
+}
+h1,
+h2,
+.mat-card-title {
+  color: mat-color($app-primary);
+}
+h2,
+.mat-card-title {
+  font-size: 1.75em;
+}
+h1 {
+  font-size: 3em;
+}
+p {
+  font-size: 1.25em;
+  line-height: 2.5em;
+  padding-top: 1em;
+  width: 80%;
+}
+.mat-card {
+  padding: 5em 4em;
 }
