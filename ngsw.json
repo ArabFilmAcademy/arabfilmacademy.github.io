@@ -1,0 +1,84 @@
+{
+  "configVersion": 1,
+  "timestamp": 1610384067715,
+  "index": "https://arabfilmacademy.com/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://arabfilmacademy.com/favicon.ico",
+        "https://arabfilmacademy.com/index.html",
+        "https://arabfilmacademy.com/main.358e56ea25526375dba1.js",
+        "https://arabfilmacademy.com/manifest.webmanifest",
+        "https://arabfilmacademy.com/polyfills.939905d55339054d2452.js",
+        "https://arabfilmacademy.com/runtime.acf0dec4155e77772545.js",
+        "https://arabfilmacademy.com/styles.7fe042d2021580019a7d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://arabfilmacademy.com/MaterialIcons-Regular.1811d381e9d3e8334394.woff",
+        "https://arabfilmacademy.com/MaterialIcons-Regular.45c4a4612e18a3255f51.ttf",
+        "https://arabfilmacademy.com/MaterialIcons-Regular.56395d5d012de45e4955.eot",
+        "https://arabfilmacademy.com/MaterialIcons-Regular.fa3334fe030aed8470dd.woff2",
+        "https://arabfilmacademy.com/apple-touch-icon.png",
+        "https://arabfilmacademy.com/assets/data/about.json",
+        "https://arabfilmacademy.com/assets/data/faq.json",
+        "https://arabfilmacademy.com/assets/data/initiatives.json",
+        "https://arabfilmacademy.com/assets/ngx-rocket-logo.png",
+        "https://arabfilmacademy.com/assets/ngx-rocket-logo@192.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://arabfilmacademy.com/MaterialIcons-Regular.1811d381e9d3e8334394.woff": "fd35aef76e3df58554d92457fb41f0f6a5dd4f01",
+    "https://arabfilmacademy.com/MaterialIcons-Regular.45c4a4612e18a3255f51.ttf": "ab5cb381b64844e1ae426cde4064074fac76c567",
+    "https://arabfilmacademy.com/MaterialIcons-Regular.56395d5d012de45e4955.eot": "da7bf13623178411bd7960b7c2e6ff8767ceac39",
+    "https://arabfilmacademy.com/MaterialIcons-Regular.fa3334fe030aed8470dd.woff2": "0bec0581767ccb3256ca805b1904031ac0147f07",
+    "https://arabfilmacademy.com/apple-touch-icon.png": "229df2094cc590088de00ea97a1eb4e4493101d2",
+    "https://arabfilmacademy.com/assets/data/about.json": "f5bf06394f063438310eba12f7da0c91e9e599f5",
+    "https://arabfilmacademy.com/assets/data/faq.json": "6be0abc2cfbd59deaa6a92d724977b7191ec6068",
+    "https://arabfilmacademy.com/assets/data/initiatives.json": "9bf482c3214983870ac60048bfc824553d9cf33b",
+    "https://arabfilmacademy.com/assets/ngx-rocket-logo.png": "0ac53fd27406fe5a36e68285315fb0012e54058e",
+    "https://arabfilmacademy.com/assets/ngx-rocket-logo@192.png": "461b730f9c6dc818f8af9acbe62dfde24dc02d7a",
+    "https://arabfilmacademy.com/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
+    "https://arabfilmacademy.com/index.html": "56a40955bb46bf235770514f2d705409b1b48bdd",
+    "https://arabfilmacademy.com/main.358e56ea25526375dba1.js": "173f4344020b71fd7521755537d6a292d14696ad",
+    "https://arabfilmacademy.com/manifest.webmanifest": "03a12563d5f0ddf0043378ba2d052ddade1d8ece",
+    "https://arabfilmacademy.com/polyfills.939905d55339054d2452.js": "dbc502f030c7bb83c7caa1feee7aff990831f7d9",
+    "https://arabfilmacademy.com/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://arabfilmacademy.com/styles.7fe042d2021580019a7d.css": "61422e03fa26aeb426b61ff2b403d670e1d924b2"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
