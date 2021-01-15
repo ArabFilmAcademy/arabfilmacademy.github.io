@@ -11,6 +11,9 @@ import { InitiativeCardComponent } from './initiative-card/initiative-card.compo
 import { InitiativeListComponent } from './initiative-list/initiative-list.component';
 import { InitiativeDetailsComponent } from './initiative-details/initiative-details.component';
 import { InitiativeCategoryComponent } from './initiative-category/initiative-category.component';
+import { ParticipateComponent } from './participate/participate.component';
+import { ParticipantFormComponent } from './participate/participant-form/participant-form.component';
+import { ParticipateButtonComponent } from './participate/participate-button/participate-button.component';
 
 @NgModule({
   imports: [
@@ -28,6 +31,9 @@ import { InitiativeCategoryComponent } from './initiative-category/initiative-ca
     InitiativeListComponent,
     InitiativeDetailsComponent,
     InitiativeCategoryComponent,
+    ParticipateComponent,
+    ParticipantFormComponent,
+    ParticipateButtonComponent,
   ],
 })
 export class InitiativeModule {}
