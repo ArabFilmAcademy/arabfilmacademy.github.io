@@ -1,5 +1,4 @@
 .container {
-  text-align: center;
   padding: 1em;
 }
 .logo {
@@ -11,8 +10,29 @@ q {
   quotes: "« " " »";
 }
 .hero {
+  text-align: center;
   height: 80vh;
 }
 .hero-subtitle {
   padding-bottom: 5em;
+}
+.initiative-home-item {
+  width: 320px;
+  height: 540px;
+}
+.section-title {
+  text-align: center;
+  font-size: 2em;
+  padding: 50px;
+}
+
+.initiative-home-item > mat-card-title {
+  text-align: center;
+  margin: 50px;
+}
+.initiative-home-item > .mat-card-content {
+}
+#create-an-initiative,
+#more-initiatives {
+  margin-top: 2em;
 }

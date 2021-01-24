@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { finalize } from 'rxjs/operators';
 
 import { QuoteService } from './quote.service';
+import { Initiative } from '@app/initiative/initiative';
+import { InitiativeService } from '@app/initiative/initiative.service';
 
 @Component({
   selector: 'app-home',
@@ -11,20 +13,21 @@ import { QuoteService } from './quote.service';
 export class HomeComponent implements OnInit {
   quote: string | undefined;
   isLoading = false;
+  initiativeCategories: Initiative[];
 
-  constructor(private quoteService: QuoteService) {}
+  constructor(private initiativeService: InitiativeService) {}
 
   ngOnInit() {
     this.isLoading = true;
-    this.quoteService
-      .getRandomQuote({ category: 'dev' })
+    this.initiativeService
+      .getInitiativeCategories()
       .pipe(
         finalize(() => {
           this.isLoading = false;
         })
       )
-      .subscribe((quote: string) => {
-        this.quote = quote;
+      .subscribe((categories) => {
+        this.initiativeCategories = categories.slice(0, 3);
       });
   }
 }

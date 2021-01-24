@@ -1,13 +1,37 @@
 <div class="container" fxLayout="column" fxLayoutGap="1em grid">
-  <div>
+  <section>
     <mat-card class="hero" fxLayout="column" fxLayoutAlign="center center">
       <mat-card-title>
         <h1 translate>Arab Film Academy</h1>
       </mat-card-title>
       <mat-card-subtitle class="hero-subtitle" translate> Support Arabic language in Media Industry </mat-card-subtitle>
     </mat-card>
-  </div>
-  <div>
-    <mat-card class="hero" fxLayout="column" fxLayoutAlign="center center"> </mat-card>
-  </div>
+  </section>
+  <section id="initiatives" fxLayout="column" fxLayoutAlign="center center">
+    <h2 class="section-title" translate>Initiatives</h2>
+    <div fxFill fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutAlign="space-evenly center" fxLayoutGap="1em grid">
+      <div *ngFor="let category of initiativeCategories">
+        <mat-card class="initiative-home-item">
+          <mat-card-title>{{ category.title }}</mat-card-title>
+          <mat-card-content>
+            <p>{{ category.description }}</p>
+            <mat-action-list>
+              <ng-template ngFor let-last="last" let-initiative [ngForOf]="category.initiatives">
+                <button routerLink="/initiatives/cat/{{ category.id }}/initiative/{{ initiative.id }}" mat-list-item>
+                  {{ initiative.title }}
+                </button>
+                <mat-divider *ngIf="!last"></mat-divider>
+              </ng-template>
+            </mat-action-list>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+    <button id="more-initiatives" routerLink="/initiatives" mat-raised-button color="primary">
+      {{ 'More Initiatives' | translate }}
+    </button>
+    <button id="create-an-initiative" mat-raised-button color="accent">
+      {{ 'Create A new initiative' | translate }}
+    </button>
+  </section>
 </div>
