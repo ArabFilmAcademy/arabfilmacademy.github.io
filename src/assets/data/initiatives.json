@@ -110,48 +110,5 @@
       }
     ],
     "created": ""
-  },
-  {
-    "id": 1,
-    "title": "",
-    "description": "",
-    "initiatives": [
-      {
-        "id": 1,
-        "title": "",
-        "description": "",
-        "created": "",
-        "tasks": [{}]
-      },
-      {
-        "id": 2,
-        "title": "",
-        "description": "",
-        "created": "",
-        "tasks": []
-      },
-      {
-        "id": 3,
-        "title": "",
-        "description": "",
-        "created": "",
-        "tasks": []
-      },
-      {
-        "id": 4,
-        "title": "",
-        "description": "",
-        "created": "",
-        "tasks": []
-      },
-      {
-        "id": 5,
-        "title": "",
-        "description": "",
-        "created": "",
-        "tasks": []
-      }
-    ],
-    "created": ""
   }
 ]
