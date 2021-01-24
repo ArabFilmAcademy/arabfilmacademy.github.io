@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { InitiativeCategory } from '@app/initiative/initiative';
 import { InitiativeService } from '@app/initiative/initiative.service';
+import { finalize } from 'rxjs/operators';
 
 @Component({
   selector: 'app-initiative',
@@ -20,6 +21,14 @@ export class InitiativeComponent implements OnInit {
   getInitiativesCategories(): void {
     this.initiativeService
       .getInitiativeCategories()
-      .subscribe((categories) => (this.initiativeCategories = categories));
+      .pipe(
+        finalize(() => {
+          this.isLoading = false;
+        })
+      )
+      .subscribe((categories) => {
+        this.isLoading = true;
+        this.initiativeCategories = categories;
+      });
   }
 }
