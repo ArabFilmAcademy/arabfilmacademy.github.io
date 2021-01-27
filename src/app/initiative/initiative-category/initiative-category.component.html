@@ -2,7 +2,7 @@
   <h1>{{ initiativeCategory.title }}</h1>
   <div fxLayout="row wrap" fxLayout.lt-md="column" fxLayoutAlign="space-between stretch" fxLayoutGap="10px grid">
     <mat-list fxFlex="50" fxFlex.lt-md="100" *ngFor="let initiative of initiativeCategory?.initiatives">
-      <app-initiative-card [initiative]="initiative"></app-initiative-card>
+      <app-initiative-card [initiative]="initiative" [category]="initiativeCategory.id"></app-initiative-card>
     </mat-list>
   </div>
 </div>

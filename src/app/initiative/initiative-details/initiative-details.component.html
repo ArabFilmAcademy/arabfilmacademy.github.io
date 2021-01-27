@@ -27,4 +27,23 @@
       </mat-card>
     </div>
   </div>
+  <div class="initiative-content">
+    <mat-card>
+      <mat-card-content>
+        <mat-card-title translate>Description</mat-card-title>
+        <p>{{ initiative.description }}</p>
+        <br />
+        {{ 'Version' | translate }}: {{ initiative.version }}
+        <br />
+        <br />
+        <mat-card-title translate>Specification</mat-card-title>
+        <ng-template ngFor let-specification [ngForOf]="initiative.specifications">
+          <h3>{{ specification.title }}</h3>
+          <mat-list>
+            <mat-list-item *ngFor="let item of specification.list">{{ item }}</mat-list-item>
+          </mat-list>
+        </ng-template>
+      </mat-card-content>
+    </mat-card>
+  </div>
 </div>

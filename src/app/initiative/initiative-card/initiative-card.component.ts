@@ -8,6 +8,7 @@ import { Initiative } from '@app/initiative/initiative';
 })
 export class InitiativeCardComponent implements OnInit {
   @Input() initiative: Initiative;
+  @Input() category: number;
   constructor() {}
 
   ngOnInit(): void {}

@@ -10,8 +10,10 @@ export class Initiative {
   id: number;
   title: string;
   description: string;
+  version?: string;
   tasks?: InitiativeTask[];
   goals?: InitiativeGoal[];
+  specifications?: InitiativeSpecification[];
   created: string;
 }
 export interface InitiativeTask {
@@ -27,4 +29,8 @@ export interface InitiativeGoal {
   name: string;
   description?: string;
   created: string;
+}
+export interface InitiativeSpecification {
+  title: string;
+  list: string[];
 }
