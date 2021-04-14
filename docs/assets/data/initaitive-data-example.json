@@ -1,0 +1,50 @@
+{
+  "id": 0,
+  "title": "",
+  "description": "",
+  "goals": [
+    {
+      "id": 0,
+      "name": "",
+      "description": "",
+      "created": ""
+    }
+  ],
+  "tasks": [
+    {
+      "id": 0,
+      "name": "",
+      "description": "",
+      "created": "",
+      "modified": "",
+      "done": false
+    }
+  ],
+  "initiatives": [
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "created": "",
+      "goals": [
+        {
+          "id": 0,
+          "name": "",
+          "description": "",
+          "created": ""
+        }
+      ],
+      "tasks": [
+        {
+          "id": 0,
+          "name": "",
+          "description": "",
+          "created": "",
+          "modified": "",
+          "done": false
+        }
+      ]
+    }
+  ],
+  "created": ""
+}
